@@ -21,8 +21,7 @@
     "test:browser": "ember test",
     "test:fastboot": "qunit fastboot-tests",
     "test:test-projects": "./scripts/test.sh",
-    "test:node": "mocha node-tests/**/*-test.js",
-    "prepare": "./scripts/link-them.sh"
+    "test:node": "mocha node-tests/**/*-test.js"
   },
   "dependencies": {
     "broccoli-caching-writer": "^3.0.3",
